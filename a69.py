@@ -2,9 +2,9 @@ from tkinter import *
 from datetime import date
 root = Tk()
 root.title('Getting started with Widgets')
-root.geometry("400×300")
+root.geometry("400x300")
 lbl = Label(text="Hey there!", fg="white", bg="#072F5F", height=1, width=300)
-name_lbl = Label(text="Full Name", bg="#38995D3")
+name_lbl = Label(text="Full Name", bg="light blue")
 name_entry = Entry()
 def display():
     name = name_entry.get()
